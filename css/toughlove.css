@@ -36,18 +36,22 @@ body{
 
 #app{
     background: #0000CC;
+    text-align:center;
 }
 
 #uses{
     background: #CCCC00;
+    text-align:center;
 }
 
 #challenge{
     background: #CC00CC;
+    text-align:center;
 }
 
 #contact{
     background: #00CCCC;
+    text-align:center;
 }
 
 .title{
