@@ -38,13 +38,15 @@ body{
 }
 
 #problem{
-    background:#AAAAAA;
+    background:#0B0700;
+    color:#FBFADE;;
     text-align:center;
 }
 
 #app{
-    background: #0000CC;
+    background: #FFE200;
     text-align:center;
+    color:black;
 }
 
 #uses{
@@ -78,7 +80,7 @@ body{
 }
 
 .descriptive-text{
-    font-size:46px;
+    font-size:36px;
 }
 
 #problem-description{
@@ -87,6 +89,10 @@ body{
 
 #problem-photo{
     text-align:right;
+    background:#FFFFFF;
+    background: url("../images/sugar.jpg") no-repeat center;
+    background-size: 100% 100%;
+    min-height:300px;
 }
 
 .row{
