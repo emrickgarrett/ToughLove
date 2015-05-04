@@ -1,5 +1,6 @@
 body{
     background:black;
+    font-family: 'League Gothic', serif;
 }
 
 .navbar-default{
@@ -11,6 +12,11 @@ body{
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
     color:white;
+    font-family: 'Myriad-Pro', serif;
+}
+
+.navbar-nav>li>a:hover{
+    color:#EEEEEE;
 }
 
 .content{
@@ -25,8 +31,10 @@ body{
 
 #home{
     background:#FFFFFF;
-    background: url("../images/foggy-mist-road.jpg") no-repeat center;
+    background: url("../images/chilling-bench.jpg") no-repeat center;
+    background-size: 100% 100%;
     text-align:center;
+    color:white;
 }
 
 #problem{
@@ -55,18 +63,22 @@ body{
 }
 
 .title{
-    font-size: 128px;
+    font-size: 156px;
     display:block;
 }
 
 .appear{
     display:inline-block;
-    margin-top:10px;
-    font-size: 38px;
+    font-size: 52px;
+}
+
+#tough_love_release_date{
+    font-size:58px;
+    margin-top:450px;
 }
 
 .descriptive-text{
-    font-size:32px;
+    font-size:46px;
 }
 
 #problem-description{
@@ -83,4 +95,14 @@ body{
 
 .container-large{
     padding:10%;
+}
+
+
+/*Fonts***************************/
+
+@font-face {
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/LeagueGothic.otf') format('opentype');
 }

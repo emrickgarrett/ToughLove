@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Because sometimes we all need a little ToughLove</title>
+    <title>ToughLove</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
@@ -48,7 +48,8 @@
 
         <div class="page" id="home">
             <span class="title"> Tough Love</span>
-            <span class="appear" id="tough_love_descrip">Because sometimes we need a little...</span>
+            <span class="appear" id="tough_love_descrip">Because sometimes it helps...</span><br/>
+            <span class="appear" id="tough_love_release_date">Coming to Android Q3 2015</span>
         </div>
 
         <div class="page" id="problem">
@@ -103,6 +104,7 @@
     $(document).ready(function(){
 
         $("#tough_love_descrip").hide().fadeIn(4000);
+        $("#tough_love_release_date").hide().delay(2500).fadeIn(4000);
     });
 
 </script>
