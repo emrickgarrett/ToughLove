@@ -50,18 +50,21 @@ body{
 }
 
 #uses{
-    background: #CCCC00;
+    background: #035A30;
     text-align:center;
+    color:white;
 }
 
 #challenge{
-    background: #CC00CC;
+    background: #22608F;
     text-align:center;
+    color:white;
 }
 
 #contact{
-    background: #00CCCC;
+    background: #D72214;
     text-align:center;
+    color:white;
 }
 
 .title{
