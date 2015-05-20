@@ -3,6 +3,11 @@ body{
     font-family: 'League Gothic', serif;
 }
 
+/*catch all to make sure they don't oversize */
+img, embed, object, video{
+    max-width:100%;
+}
+
 .navbar-default{
     background: #222;
     margin-bottom:0;
@@ -68,18 +73,18 @@ body{
 }
 
 .title{
-    font-size: 156px;
+    font-size: 10em;
     display:block;
 }
 
 .appear{
     display:inline-block;
-    font-size: 52px;
+    font-size: 4em;
 }
 
 #tough_love_release_date{
-    font-size:72px;
-    margin-top:150px;
+    font-size:5em;
+    margin-top:225px;
 }
 
 .descriptive-text{
@@ -167,6 +172,25 @@ body{
 
 #signup_box #subscribe_button a:hover{
     color: green;
+}
+
+@media only screen and (max-device-width : 640px) {
+    /* Phone Styles */
+    .title{
+        font-size:8em;
+    }
+
+    .appear{
+        font-size:2em;
+    }
+
+    #tough_love_release_date{
+        font-size:2em;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* Tablet Styles */
 }
 
 /*Fonts***************************/
