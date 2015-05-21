@@ -76,10 +76,10 @@ if($username != null){
 
 <div class="necklace">
     <div class="pearl">
-        Usage Statistics
+        Usage
     </div>
     <div class="pearl">
-        Running Stats
+        Running
     </div>
     <div class="pearl">
         Sponsor
@@ -88,7 +88,7 @@ if($username != null){
         About
     </div>
     <div class="pearl">
-        Weight Stats
+        Weight
     </div>
     <div class="pearl">
         Goals
