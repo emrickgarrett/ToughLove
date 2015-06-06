@@ -25,8 +25,11 @@ function resizePage(){
 
 
     //set album height
-    $("#album").height($('#sidebar').height() - $('#profile').height());
+    $("#album").height($('#sidebar').height() - $('#profile').height() - 20);
 
     //set feed width
-    $("#feed").width($('blog-content').width() - $("profile").width());
+    $("#feed").width($('.blog-content').width() - $("#profile").width()-40);
+
+    //set photo width/height
+    $(".album-photo").height($("#album").width()/3 - 5).width($("#album").width()/3 - 5)
 }
