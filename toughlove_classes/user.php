@@ -63,9 +63,9 @@ class User{
 
     public function getAlbumPhotos(){
         $result = array();
-        $result[0] = "<img src='images/belly.jpg'/>";
-        $result[1] = "<img src='images/garrett.jpg'/>";
-        $result[2] = "<img src='images/hiking.jpg'/>";
+        $result[0] = "<a href='images/belly.jpg'><img src='images/belly.jpg'/></a>";
+        $result[1] = "<a href='images/garrett.jpg'><img src='images/garrett.jpg'/></a>";
+        $result[2] = "<a href='images/hiking.jpg'><img src='images/hiking.jpg'/></a>";
 
         return $result;
     }

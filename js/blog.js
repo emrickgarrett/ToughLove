@@ -4,6 +4,16 @@
 $(document).ready(function(){
     //Make the content the exact height of the page
     resizePage();
+
+    $("#subscribe_button").click(function(){
+        alert("Not Impemented Yet");
+    });
+
+    $("#stats_button").click(function(){
+       alert("Not Implemented Yet");
+    });
+
+
 });
 
 
@@ -25,7 +35,7 @@ function resizePage(){
 
 
     //set album height
-    $("#album").height($('#sidebar').height() - $('#profile').height() - 20);
+    $("#album").height($('#sidebar').height() - $('#profile').height() - 15);
 
     //set feed width
     $("#feed").width($('.blog-content').width() - $("#profile").width()-40);

@@ -65,7 +65,7 @@
                             <div class="input-group" id="signup_box">
                                 <span class="input-group-addon" id="email_descrip">Email</span>
                                 <input type="text" id="email_input" class="form-control" placeholder="example@gmail.com" aria-describedby="basic-addon1">
-                                <span class="input-group-addon" id="subscribe_button"><a href="#"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span></a></span>
+                                <span class="input-group-addon" id="subscribe_button"><a id="submit_button" href="#"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span></a></span>
                             </div>
                         </div>
                     </div>
@@ -80,6 +80,11 @@
 
         $("#tough_love_descrip").hide().fadeIn(4000);
         $("#tough_love_release_date").hide().delay(2500).fadeIn(4000);
+
+        $("#submit_button").click(function(){
+            alert("Not implemented yet");
+        });
+
     });
 
 </script>

@@ -80,23 +80,27 @@ if($username != null){
         <div class="blog-content">
             <div id="sidebar">
                 <div id="profile">
-                    <img id="profile_pic" src="<?php echo $user -> profile_pic?>"/>
-                    <div id="profile_info">
-                        <span><?php echo $user -> username ?></span>
-                        <span><?php echo $user -> first_name?> <?php echo $user -> last_name?></span>
-                        <span>Age: <?php echo $user -> age?></span>
-                        <span>Streak: <?php echo $user -> days_active?></span>
-                        <span>Lost: <?php echo $user -> weight_lost?></span>
-                        <span>Goal: <?php echo $user -> weight_goal?></span>
+                    <div id="profile-title">
+                        <strong><?php echo $user -> username ?></strong>
+                        <span class="pull-right" style="margin-right:3px"><strong><?php echo $user -> first_name?> <?php echo $user -> last_name?></strong></span>
                     </div>
-                    <div class ="row" id="profile_data">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                           <a id="subscribe_button" href="#">Sponsor!</a>
+                    <div id="profile_content">
+                        <img id="profile_pic" src="<?php echo $user -> profile_pic?>"/>
+                        <div id="profile_info">
+                            <span>Age: <?php echo $user -> age?></span>
+                            <span>Streak: <?php echo $user -> days_active?></span>
+                            <span>Lost: <?php echo $user -> weight_lost?></span>
+                            <span>Goal: <?php echo $user -> weight_goal?></span>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:right">
-                            <a id="stats_button"  href="#"><i class="fa fa-line-chart"></i></a>
-                        </div>
+                        <div style="width:100%" id="profile_data">
+                            <span style="width:50%;">
+                                <a style="margin-left:3px;" id="subscribe_button" href="#">Sponsor!</a>
+                            </span>
+                            <span style="width:50%;text-align:right;">
+                                <a style="margin-right:12px;" id="stats_button"  href="#"><i class="fa fa-line-chart"></i></a>
+                            </span>
 
+                        </div>
                     </div>
                 </div>
                 <div id="album">
